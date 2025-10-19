@@ -50,3 +50,5 @@
     - name: Report working Matrix Corporal HTTP API
       ansible.builtin.debug:
         msg: "Matrix Corporal API is working at `{{ matrix_server_fqn_matrix }}` (checked endpoint: `{{ matrix_corporal_self_check_corporal_api_url_endpoint_public }}`)"
+
+# Update: 2025-10-19
